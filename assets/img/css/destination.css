@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    box-sizing : border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color1 {
+    color: rgb(1, 67, 70);
+}
+
+.color2 {
+    color: rgb(228, 44, 34);
+}
+
+.fsp {
+    letter-spacing: 2px;
+}
+
+
+#home {
+    background-image   : url('../img/destback1.jpg');
+    background-size    : cover;
+    background-position: center;
+    background-color   : rgb(217, 255, 0);
+    color              : white;
+    min-height         : 50vh;
+}
+
+#home a {
+    color: white;
+}
+
+.ts {
+    text-shadow: 2px 2px 5px black;
+}
+
+.home__content h3 {
+    letter-spacing: 2px;
+    font-size     : 50px !important;
+}
+
+.andaman__img1 {
+    background-image   : url('../img/andaman1.jpg');
+    background-size    : cover;
+    background-position: center;
+    width              : 33.333333%;
+    height             : 300px;
+}
+.andamanabout p{
+    width: 50%;
+    margin: auto;
+}
+.andaman__img2 {
+    background-image   : url('../img/andaman2.jpg');
+    background-size    : cover;
+    background-position: center;
+    width              : 33.333333%;
+    height             : 300px;
+    border-left        : 2px solid white;
+    border-right       : 2px solid white;
+}
+
+.andaman__img3 {
+    background-image   : url('../img/andaman3.jpg');
+    background-size    : cover;
+    background-position: center;
+    width              : 33.333333%;
+    height             : 300px;
+}
+
+#geography {
+    background-color: rgb(230, 227, 227);
+}
+
+.geography__small {
+    margin-left: 30px;
+}
+
+.geography__small i {
+    margin-left: -30px;
+    margin-top : -30px;
+    font-size  : 50px;
+    display    : block;
+}
+
+#destback2 {
+    background-image   : url('../img/destback2.jpg');
+    background-size    : cover;
+    background-position: center left;
+    min-height             : 90vh;
+}
+
+#destback2 p {
+    width      : 55%;
+    margin     : auto;
+    padding-top: 220px;
+}
+
+#destback3 {
+    background-image   : url('../img/destback4.jpg');
+    background-size    : cover;
+    background-position: center center;
+    min-height         : 90vh;
+}
+
+.destback3__main {
+    width          : 100%;
+    min-height     : 90vh;
+    display        : flex;
+    justify-content: center;
+    align-content  : center;
+    align-items    : center;
+}
+
+.destback3__main--content {
+    width           : 50%;
+    background-color: white;
+    padding         : 10px;
+    z-index         : 1;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.destback3__main--img {
+    width: 50%;
+}
+
+.destback3__main--img img {
+    margin-left: -100px;
+    width      : 1000px;
+    box-shadow: 2px 2px 10px black;
+}
+
+#checkdate {
+    background-color: rgb(153, 197, 82);
+}
+
+#checkdate i {
+    font-size: 50px;
+}
+
+/* footer  */
+#footer1 {
+    background-color: rgb(230, 230, 230);
+}
+
+#footer1 p {
+    font-size  : 13px;
+    color      : brown;
+    font-weight: 500;
+}
+
+.footer__icons i {
+    font-size : 25px;
+    padding   : 10px;
+    transition: transform .2s;
+    color     : brown;
+}
+
+.footer__icons i:hover {
+    transform  : scale(1.5);
+    color      : gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item a,
+h5 {
+    font-weight: 700;
+    font-size  : 15px;
+    padding    : 3px;
+    transition : transform .2s;
+    color      : brown;
+}
+
+.footer__item a:hover {
+    transform  : scale(1.5);
+    color      : rgb(118, 255, 203);
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item h4 {
+    color        : rgb(57, 75, 28);
+    font-weight  : 800;
+    font-size    : 18px;
+    margin-bottom: 20px;
+    padding-left : 15px;
+}
+
+.footer__content {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width  : 20%;
+    padding: 10px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .andamanabout p{
+        width: 100%;
+    }
+    .andaman__img1 {
+        width: 100%;
+    }
+
+    .andaman__img2 {
+        width       : 100%;
+        border-left : 0px solid white;
+        border-right: 0px solid white;
+    }
+
+    .andaman__img3 {
+        width: 100%;
+    }
+    .geography__small {
+        margin-left: 0px;
+    }
+    .geography__small i {
+        margin-left: -15px;
+        margin-top : -15px;
+        font-size  : 50px;
+        display    : block;
+    }
+    #destback2 {
+        background-position: right center;
+        min-height             : 50vh;
+    }
+    #destback2 p {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .destback3__main {
+        width         : 100%;
+        min-height    : 90vh;
+        flex-direction: column;
+    }
+
+    .destback3__main--content {
+        width           : 100%;
+        background-color: white;
+        padding         : 10px;
+        z-index         : 1;
+    }
+
+    .destback3__main--img {
+        width: 100%;
+    }
+
+    .destback3__main--img img {
+        margin-top : 20px;
+        margin-left: 0px;
+        width      : 1000px;
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    .footer__content {
+        display       : flex;
+        flex-direction: column;
+    }
+}
