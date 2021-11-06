@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color1 {
+   color: rgb(242,173,38); 
+}
+
+.color2 {
+    color: rgb(65,66,66);
+}
+
+.fsp {
+    letter-spacing: 2px;
+}
+
+
+
+#checkdate {
+    background-color: rgb(153, 197, 82);
+}
+
+#checkdate i {
+    font-size: 50px;
+}
+
+/* footer  */
+#footer1 {
+    background-color: rgb(230, 230, 230);
+}
+
+#footer1 p {
+    font-size  : 13px;
+    color      : brown;
+    font-weight: 500;
+}
+
+.footer__icons i {
+    font-size : 25px;
+    padding   : 10px;
+    transition: transform .2s;
+    color     : brown;
+}
+
+.footer__icons i:hover {
+    transform  : scale(1.5);
+    color      : gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item a,
+h5 {
+    font-weight: 700;
+    font-size  : 15px;
+    padding    : 3px;
+    transition : transform .2s;
+    color      : brown;
+}
+
+.footer__item a:hover {
+    transform  : scale(1.5);
+    color      : rgb(118, 255, 203);
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item h4 {
+    color        : rgb(57, 75, 28);
+    font-weight  : 800;
+    font-size    : 18px;
+    margin-bottom: 20px;
+    padding-left : 15px;
+}
+
+.footer__content {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width  : 20%;
+    padding: 10px 5px;
+}
+
+@media only screen and (max-width: 768px){
+    /* south end */
+    .footer__item {
+        width: 100%;
+    }
+
+    .footer__content {
+        display       : flex;
+        flex-direction: column;
+    }
+}

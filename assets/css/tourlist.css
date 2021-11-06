@@ -1,0 +1,242 @@
+a {
+    text-decoration: none;
+}
+
+.color1 {
+    color: rgb(1, 67, 70);
+}
+
+.color2 {
+    color: rgb(228, 44, 34);
+}
+
+.fsp {
+    font-size  : 20px;
+    padding-top: 8px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+  }
+/* home start */
+#tourlisthome {
+    background-image   : url('../img/homeback1.jpg');
+    background-size    : cover;
+    background-position: center center;
+    background-repeat  : no-repeat;
+    background-color   : rgb(217, 255, 0);
+    color              : white;
+    min-height         : 70vh;
+}
+
+#tourlisthome a {
+    color: white;
+}
+
+.tourlisthome__content h3 {
+    letter-spacing: 2px;
+    font-size     : 50px !important;
+}
+
+/* home end  */
+/* our tour start */
+#ourtour p {
+    width : 60%;
+    margin: auto;
+}
+
+/* our tour end */
+/* tour type */
+#tourlisttype {
+    background-color: rgb(207, 207, 207);
+}
+
+.tourlisttype__item {
+    background-color: rgb(182, 181, 181);
+    padding         : 20px;
+}
+
+.tourlisttype__item img {
+    width : 100px;
+    height: 100px;
+}
+
+.tourlisttype__item:hover {
+    background-color: rgb(114, 156, 122);
+    color           : white;
+    box-shadow      : 5px 5px 10px rgb(58, 88, 51);
+}
+
+/* tour type end*/
+.tourlisttype__card .card {
+    box-shadow: 5px 5px 15px black;
+    border    : none;
+}
+
+.tourty__card--dis p {
+    font-size : 15px;
+    text-align: left;
+}
+
+/* experience */
+
+.flip-card {
+    background-color: transparent;
+    width           : 33.33333%;
+    height          : 80vh;
+    perspective     : 1000px;
+}
+
+.flip-card-inner {
+    position       : relative;
+    width          : 100%;
+    height         : 100%;
+    transition     : transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow     : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position           : absolute;
+    width              : 100%;
+    height             : 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color           : black;
+}
+
+.flip-card-front h3 {
+    margin-top: -50px;
+}
+
+.flip-card-back h3,
+.flip-card-back h4 {
+    margin-top: -270px;
+}
+
+.flip-card-back {
+    color    : white;
+    transform: rotateY(180deg);
+}
+
+/* footer  */
+#footer1 {
+    background-color: rgb(230, 230, 230);
+}
+
+#footer1 p {
+    font-size  : 13px;
+    color      : brown;
+    font-weight: 500;
+}
+
+.footer__icons i {
+    font-size : 25px;
+    padding   : 10px;
+    transition: transform .2s;
+    color     : brown;
+}
+
+.footer__icons i:hover {
+    transform  : scale(1.5);
+    color      : gold;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item a,
+h5 {
+    font-weight: 700;
+    font-size  : 15px;
+    padding    : 3px;
+    transition : transform .2s;
+    color      : brown;
+}
+
+.footer__item a:hover {
+    transform  : scale(1.5);
+    color      : rgb(118, 255, 203);
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer__item h4 {
+    color        : rgb(57, 75, 28);
+    font-weight  : 800;
+    font-size    : 18px;
+    margin-bottom: 20px;
+    padding-left : 15px;
+}
+
+.footer__content {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width  : 20%;
+    padding: 10px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    /* experience */
+    #ourtour p {
+        width : 100%;
+    }
+    .flip-card {
+        width        : 100%;
+        margin-bottom: 100px;
+    }
+
+    .flip-card-inner {
+        position       : relative;
+        width          : 100%;
+        height         : 100%;
+        transition     : transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow     : 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+        position           : absolute;
+        width              : 100%;
+        height             : 100%;
+        backface-visibility: hidden;
+    }
+
+    .flip-card-front {
+        background-color: #bbb;
+        color           : black;
+    }
+
+    .flip-card-back h3,
+    .flip-card-back h4 {
+        margin-top: -270px;
+    }
+
+    .flip-card-back {
+        color    : white;
+        transform: rotateY(180deg);
+    }
+
+    .footer__item {
+        width: 100%;
+    }
+
+    .footer__content {
+        display       : flex;
+        flex-direction: column;
+    }
+}
