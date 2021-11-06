@@ -306,23 +306,16 @@ h5 {
 @media only screen and (max-width: 768px) {
 
     .ex__gal--dis {
-        margin-top: 40%;
+        margin-top: 25%;
     }
     
     .ex__gal--dis2 {
-        margin-top: 68%;
+        margin-top: 45%;
         width     : 100%;
         padding   : 45% 15px;
         transition: .5s;
     }
-    
-    .ex__gal--dis2:hover {
-        margin-top      : 0%;
-        background-color: rgba(0, 0, 0, 0.555);
-    }
-    
     /* south start */
-
     .south__btn a {
         padding: 10px 5px;
     }
