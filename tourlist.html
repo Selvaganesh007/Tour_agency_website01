@@ -1,0 +1,877 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Tour List</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico"/>
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- FontAwesome 5.15.3 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- External style sheet -->
+  <link rel="stylesheet" href="assets/css/tourlist.css">
+</head>
+
+<body>
+  <!-- navbar start -->
+  <nav class="container-fluid navbar navbar-expand-xxl navbar-light bg-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <a class="navbar-brand text-center" href="#">
+        <img src="assets/img/logo.png" alt="logo" width="70" height="40">
+      </a>
+      <button class="btn btn-outline-success btn-sm p-1 p-lg-2"><i class="fas fa-phone-alt"></i> Get in Touch</button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="destination.html">Destination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="privatetour.html">Private Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="singletour.html">Single Tour</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tourlist.html">Tour List</a>
+          </li>
+        </ul>
+      </div>    
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+  <!-- home start -->
+  <div class="container-fluid pt-2 pt-lg-5" id="tourlisthome">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12 col-md-6 pt-3 pt-lg-5 tourlisthome__content text-left">
+          <h4 class="fs-4">DISCOVER A HIDDEN PARADISE</h4>
+          <h3 class="fw-bolder">Our Travels</h3>
+          <button class="btn btn-success btn-lg"><a href="">BOOK NOW</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- our tours start -->
+  <div class="container py-5 text-center" id="ourtour">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="fw-bold fs-1 py-3">Our Tours</h3>
+        <p class="text-secondary fw-bold py-3">Discover the "The Trip Designer", your specialist in EcoTourisum a new
+          face of the Dominican Republic, more human, more authentic!</p>
+        <p>We have artistically unique excursions for you, accompanied by professional and passionate local guides who
+          will shoe you the best of this part of the country</p>
+      </div>
+    </div>
+  </div>
+  <!-- our tours end -->
+  <!-- tour type start -->
+  <div class="container-fluid py-5" id="tourlisttype">
+    <div class="container">
+      <div class="row tourlisttype text-center">
+        <div class="col-12 col-md-3 py-3">
+          <div class="tourlisttype__item">
+            <img src="assets/img/hometyall.png" class="img-fluid" alt="travel">
+            <h3 class="fsp">ALL CATEGORIES</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 py-3">
+          <div class="tourlisttype__item">
+            <img src="assets/img/homety1.png" class="img-fluid" alt="travel">
+            <h3 class="fsp">DAY-TRIPS</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 py-3">
+          <div class="tourlisttype__item">
+            <img src="assets/img/homety2.png" class="img-fluid" alt="travel">
+            <h3 class="fsp">MULTI-DAY TRIPS</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 py-3">
+          <div class="tourlisttype__item">
+            <img src="assets/img/homety3.png" class="img-fluid" alt="travel">
+            <h3 class="fsp">PRIVATE TOURS</h3>
+          </div>
+        </div>
+        <!-- card start  -->
+        <div class="row">
+          <!-- card 1 start (Ooty) -->
+          <div class="col-12 tourlisttype__card py-2 pt-5">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/ooty.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="Ooty">
+                    <div class="card__expend pt-5 px-1 px-lg-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6>ROUTE: Chennai - Ooty </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-success" href="https://goo.gl/maps/tssoWnHMAmFVr1WN7" target="_blank"> map
+                            </a></h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <i class="fas fa-mountain"></i> Doddabetta is the highest peak(2,623 m)</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Nilgiri Mountain Railway</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> Ooty lake</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Tea Factory</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">Ooty</h3>
+                        <h6>Multi-Day trip</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹6199</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>The Government Rose Garden is the largest rose garden in India.</b>It is situated
+                          on the slopes of the Elk Hill in Vijayanagaram of Ooty town. at an altitude of 2200 meters.
+                          Today this garden has one of the largest collection of roses in the country with more than
+                          20,000 varieties of roses of 2,800 cultivars.<a class="text-secondary"
+                            data-bs-toggle="collapse" href="#Ooty" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="Ooty">
+                        <div class="card__expend pb-5 text-left">
+                          <p class="text-start"> Ooty lake covers an area of 65 acres. The boat house established
+                            alongside the lake, which offers boating facilities to tourists, is a major tourist
+                            attraction in Ooty</p>
+                          <p class="text-start"> Pykara is a river located 19 km from Ooty. The Pykara is considered
+                            very sacred by the Todas. The Pykara river rises at Mukurthi peak and passes through a hilly
+                            tract, generally keeping to the north and turns to the west after reaching the plateau's
+                            edge. The river flows through a series of cascades; and the last two falls of 55 meters and
+                            61 meters are known as Pykara falls.</p>
+                          <p class="text-start">In July 2005, UNESCO added the Nilgiri Mountain Railway as an extension
+                            to the World Heritage Site of Darjeeling Himalayan Railway, the site then became known as
+                            "Mountain Railways of India.</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
+                        <h6 class="text-secondary d-inline">5721 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Ooty" target="_blank"> info </a>
+                        </h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=ooty+tourism+wikipedia&rlz=1C1IBEF_enIN930IN930&hl=en&sxsrf=AOaemvLMwdMMUH98EgrlOftV0fdwQC4Xcw:1635409017248&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjhy6Os1ezzAhVUzzgGHewyCBsQ_AUoAnoECAEQBA&biw=1366&bih=663&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/tssoWnHMAmFVr1WN7" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 start (Kodaikanal) -->
+          <div class="col-12 tourlisttype__card py-2">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/kodai.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="Kodaikanal">
+                    <div class="card__expend pt-5 px-1 px-lg-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6><b>ROUTE: </b>Chennai - Kodaikanal </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-dark" href="https://goo.gl/maps/sTkLHMrbDqhB2Qbt9" target="_blank"> map </a>
+                          </h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <h6><i class="far fa-clock"></i> Horseback riding / duration: 1 hour</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Panoramic view over the Berijam Lake</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> rowing boats and pedalling boat ride</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Coaker's Walk</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">Kodaikanal</h3>
+                        <h6>Daytrip</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 7 to 8 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹3000</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>Kodaikanal has several scenic natural attractions which attract visitors and make
+                            it a destination for newlyweds.</b> Kodaikanal Lake is an artificial, roughly star-shaped
+                          45-hectare (110-acre) lake built in 1863. It is <a class="text-secondary"
+                            data-bs-toggle="collapse" href="#Kodaikanal" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="Kodaikanal">
+                        <div class="card__expend pb-5">
+                          <p class="text-start">Kodaikanal's most popular geographic landmark and tourist attraction.
+                            Rowboats and pedalos can be hired at the Kodaikanal Boat Club. Horses and bicycles can be
+                            hired beside the lake for short periods. The 5 kilometres path that skirts the periphery of
+                            this lake is a favourite walk for locals and tourists alike.</p>
+                          <p class="text-start">In 1906, with a view to growing valuable timber, H.D. Bryant started the
+                            Kodaikanal pine plantations in the south-west of Kodaikanal.</p>
+                          <p class="text-start">8 kilometres from the bus-stand, is a set of three giant rock pillars
+                            which stand 122 metres (400 ft) high. Managed by the Tamil Nadu Forest Department, The
+                            viewpoint can be crowded but is not commercialized. There is an excellent public garden
+                            adjacent to the viewpoint.</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <h6 class="text-secondary d-inline">1929 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Kodaikanal" target="_blank"> info
+                          </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=kodaikanal&rlz=1C1IBEF_enIN930IN930&sxsrf=AOaemvLW9fFFjUQxpuBGnYynHZPklESP8A:1635403940957&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjvsdu3wuzzAhWEwzgGHVDKD0cQ_AUoAnoECAEQBA&biw=1366&bih=663&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/sTkLHMrbDqhB2Qbt9" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 3 start {kanyakumari} -->
+          <div class="col-12 tourlisttype__card py-2">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/kanyakumari.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="kanyakumari">
+                    <div class="card__expend pt-5 px-0 px-lg-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6>ROUTE: Chennai - kanyakumari </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-success" href="https://goo.gl/maps/rkAbrRc3ajuRTgEQ6" target="_blank"> map
+                            </a></h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <h6><i class="far fa-clock"></i> Boat ride/ duration: 3-4 hours</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Thiruvalluvar Statue</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> Ride through a Sea</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Gandhi Memorial Mandapam</h6>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">kanyakumari</h3>
+                        <h6>Daytrip</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 9 to 10 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹5000</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>A popular tourist destination in India, it is famous for its unique ocean
+                            sunrise, sunset and moonrise, the 41-metre (133 ft)</b>Thiruvalluvar Statue and Vivekananda
+                          Rock Memorial off the coast, and as a pilgrimage centre.<a class="text-secondary"
+                            data-bs-toggle="collapse" href="#kanyakumari" role="button" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="kanyakumari">
+                        <div class="card__expend pb-5 text-left">
+                          <p class="text-start">The Thiruvalluvar Statue has a height of 29 metres (95 feet) and stands
+                            upon a 11.5-metre (38 ft) rock that represents the 38 chapters of "virtue" in the
+                            Thirukkural. The statue standing on the rock represents "wealth" and "pleasures", signifying
+                            that wealth and love be earned and enjoyed on the foundation of solid virtue.</p>
+                          <p class="text-start">The Vivekananda Rock Memorial is a popular tourist monument in
+                            Vavathurai, Kanyakumari, India. The memorial stands on one of two rocks located about 500
+                            metres (1,600 ft) east of the mainland of Vavathurai.</p>
+                          <p class="text-start">Bhagavathy Amman Temple is a 3000-year-old temple dedicated to Goddess
+                            Kumari Amman located at Kanyakumari. Kumari Amman is one of the forms of Devi, popularly
+                            known as "Kumari Bhagavathy Amman".</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <h6 class="text-secondary d-inline">2756 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Kanyakumari" target="_blank"> info
+                          </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=kanyakumari&rlz=1C1IBEF_enIN930IN930&sxsrf=AOaemvJADCDXZzb_tIReADtVrbRYltIBFQ:1635404445144&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjG35CoxOzzAhW4H7cAHVSnCFEQ_AUoAnoECAEQBA&biw=1366&bih=606&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/rkAbrRc3ajuRTgEQ6" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 start (Rameswaram) -->
+          <div class="col-12 tourlisttype__card py-2">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/rameshwaram.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="Rameswaram">
+                    <div class="card__expend pt-5 px-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6>ROUTE: Chennai - Rameswaram </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-success" href="https://goo.gl/maps/97aUuAeyAbWm6Dy8A" target="_blank"> map
+                            </a></h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <i class="fas fa-gopuram"></i> Ramanathaswamy Temple</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Pamban Bridge</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> Dhanushkodi</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Dr. A. P. J. Abdul Kalam National Memorial</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">Rameswaram</h3>
+                        <h6>Daytrip</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 9 to 10 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹4000</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>Rameswaram is a municipality in the Ramanathapuram district of the Indian state
+                            of Tamil Nadu.</b>It is on Pamban Island separated from mainland India by the Pamban
+                          channel<a class="text-secondary" data-bs-toggle="collapse" href="#Rameswaram" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="Rameswaram">
+                        <div class="card__expend pb-5 text-left">
+                          <p class="text-start"> and is about 40 kilometres from Mannar Island, Sri Lanka. It is in the
+                            Gulf of Mannar, at the tip of the Indian peninsula. Pamban Island, also known as Rameswaram
+                            Island, is connected to mainland India by the Pamban Bridge.</p>
+                          <p class="text-start"> Rameswaram is the terminus of the railway line from Chennai and
+                            Madurai. Together with Varanasi, it is considered to be one of the holiest places in India
+                            to Hindus, and part of the Char Dham pilgrimage.</p>
+                          <p class="text-start">The Ramanathaswamy Temple is the most notable historic landmark of the
+                            town. Located in the centre of town, Ramanathaswamy Temple is a famous Hindu temple
+                            dedicated to the god Shiva.</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <h6 class="text-secondary d-inline">1274 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Rameswaram" target="_blank"> info
+                          </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=rameshwaram&rlz=1C1IBEF_enIN930IN930&sxsrf=AOaemvKu5Ji0CM8vDvOSNbYjR9MLaOMMGw:1635405315735&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjnt6HHx-zzAhXEumMGHRTNBi8Q_AUoAnoECAEQBA&biw=1366&bih=606&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/97aUuAeyAbWm6Dy8A" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 5 start (madurai) -->
+          <div class="col-12 tourlisttype__card py-2">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/madurai.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="Madurai">
+                    <div class="card__expend pt-5 px-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6>ROUTE: Chennai - Madurai </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-success" href="https://goo.gl/maps/ZfgbMYpHoxZ6D1ox5" target="_blank"> map
+                            </a></h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <i class="fas fa-gopuram"></i> Meenakshi Temple</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Thirumalai Nayakkar Mahal</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> Vaigai Dam</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Vandiyur Mariamman Teppakulam</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">Madurai</h3>
+                        <h6>Private Tour</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 8 to 9 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹3500</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>The city has a number of historical monuments, with the Meenakshi Temple and the
+                            Tirumalai Nayak Palace being the most prominent.</b>Madurai is popularly called Thoonga
+                          Nagaram meaning<a class="text-secondary" data-bs-toggle="collapse" href="#Madurai"
+                            role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="Madurai">
+                        <div class="card__expend pb-5 text-left">
+                          <p class="text-start"> the city that never sleeps, on account of the active night life.The
+                            people of Madurai celebrate numerous festivals, including Meenakshi Tirukkalyanam, the
+                            Chittirai Festival and the Car Festival. The annual 10-day Meenakshi Tirukalyanam festival,
+                            also called Chittirai festival, is celebrated during April–May every year and attracts one
+                            million visitors.</p>
+                          <p class="text-start"> Entertainment included shopping malls such as Milan'em Mall and Vishaal
+                            de Mal is being the South Tamil Nadu's biggest large format shopping mall, is located in
+                            Chokkikulam, Madurai.</p>
+                          <p class="text-start">Jallikattu is one of the most popular historical sport in Tamil Nadu,
+                            and is a part of the Pongal festival (harvest festival) Mattu Pongal celebrated during
+                            January.</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
+                        <h6 class="text-secondary d-inline">3014 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Madurai" target="_blank"> info </a>
+                        </h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=madurai&rlz=1C1IBEF_enIN930IN930&hl=en&sxsrf=AOaemvIzFmySwySR9lYJzcDGqN8LJ5PprQ:1635407769992&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1qMXZ0OzzAhWeyzgGHTcpCAMQ_AUoA3oECAEQBQ&biw=1366&bih=663&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/ZfgbMYpHoxZ6D1ox5" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 6 start (Pondicherry) -->
+          <div class="col-12 tourlisttype__card py-2">
+            <div class="card mb-3" style="max-width: 100%">
+              <div class="row g-0">
+                <div class="col-md-5">
+                  <img src="assets/img/pondi.jpg" class="img-fluid" alt="nature">
+                  <div class="collapse" id="Pondicherry">
+                    <div class="card__expend pt-5 px-3">
+                      <div class="row py-1">
+                        <div class="col-8 text-start">
+                          <h6>ROUTE: Chennai - Pondicherry </h6>
+                        </div>
+                        <div class="col-4 text-end">
+                          <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                              class="text-success" href="https://goo.gl/maps/kv9wrt5ehAWMtnpo9" target="_blank"> map
+                            </a></h6>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col text-start py-2">
+                          <i class="fas fa-gopuram"></i> Thirukaameeswarar Temple</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-map-marker-alt"></i> Departing from Chennai</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-camera"></i> Auroville</h6>
+                          <hr class="mx-5">
+                          <h6><i class="fas fa-water"></i> Promenade Beach</h6>
+                          <hr class="mx-5">
+                          <h6><i class="far fa-flag"></i> Stop at the Pudhuvai Museum</h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-7">
+                  <div class="card__body p-4">
+                    <div class="row">
+                      <div class="col-12 col-lg-8 text-start">
+                        <h3 class="fw-bold fs-2">Pondicherry</h3>
+                        <h6>Multi-Day trip</h6>
+                        <h6 class="text-secondary">Departing from Chennai</h6>
+                        <h6 class="text-secondary"><i class="far fa-clock"></i> 4 to 5 Hours</h6>
+                      </div>
+                      <div class="col-12 col-lg-4 text-end">
+                        <h4 class="bg-success d-inline text-light p-1">₹5300</h4>
+                        <h5 class="pt-2">Per adult</h5>
+                        <h6 class="text-secondary">Transpotation included</h6>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 py-2 tourty__card--dis">
+                        <p class=""><b>The history of Pondicherry is recorded only after the arrival of Dutch,
+                            Portuguese, British and French traders.</b>The city has many colonial buildings, churches,
+                          temples and statues which,<a class="text-secondary" data-bs-toggle="collapse"
+                            href="#Pondicherry" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <b>Read more...</b>
+                          </a></p>
+                      </div>
+                      <div class="collapse" id="Pondicherry">
+                        <div class="card__expend pb-5 text-left">
+                          <p class="text-start"> combined with the town planning and French style avenues in the old
+                            part of town, still preserve much of the colonial ambiance.</p>
+                          <p class="text-start"> The Sri Aurobindo Ashram, located on rue de la Marine, is one of the
+                            most important ashrams in India, founded by the renowned Freedom Fighter and spiritual
+                            philosopher Sri Aurobindo. Auroville (City of Dawn) is an "experimental" township located 8
+                            km north-west of Pondicherry.</p>
+                          <p class="text-start">The breakwater to the harbour and other hard structures constructed on
+                            the shore caused extreme coastal erosion and the sand from Pondicherry's Promenade Beach was
+                            permitted to disappear entirely. As a result of the city's seawall and groyne construction,
+                            the beaches further up the coast to the north have also been lost.</p>
+                          <button class="btn btn-success btn-lg mt-4"><a class="text-light" href="">BOOK
+                              NOW</a></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-lg-6 text-start">
+                        <i class="fas fa-eye"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star text-success"></i>
+                        <i class="fas fa-star-half-alt text-success"></i>
+                        <i class="far fa-star text-success"></i>
+                        <h6 class="text-secondary d-inline">2512 Opinions</h6>
+                      </div>
+                      <div class="col-12 col-lg-6 text-end">
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-info-circle"></i> <a
+                            class="text-success" href="https://en.wikipedia.org/wiki/Pondicherry" target="_blank"> info
+                          </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-images"></i><a class="text-success"
+                            href="https://www.google.com/search?q=pondicherry&rlz=1C1IBEF_enIN930IN930&hl=en&sxsrf=AOaemvL7ScxKhfaTzEKctD89vwyEgMNwCQ:1635411782835&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjW84HT3-zzAhXM63MBHb6FA8oQ_AUoAnoECAEQBA&biw=1366&bih=663&dpr=1"
+                            target="_blank"> photos </a></h6>
+                        <h6 class="d-inline fw-normal text-success"><i class="fas fa-map-marker-alt"></i><a
+                            class="text-success" href="https://goo.gl/maps/kv9wrt5ehAWMtnpo9" target="_blank"> map </a>
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card end -->
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-success btn-lg mt-4 px-3"><a class="text-light fw-bold" href="">LOAD
+                  MORE</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- tour type end -->
+  <!-- experience start -->
+  <div class="container text-center py-5" id="experi">
+    <div class="row">
+      <div class="col">
+        <h3 class="fw-bold fs-1 py-5">Featured Travel Experiences</h3>
+      </div>
+    </div>
+    <div class="row experi__card--bundal">
+      <div class="col-12 col-lg-4 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/img/coorh.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder">Coorg</h3>
+          </div>
+          <div class="flip-card-back">
+            <img src="assets/img/coorh.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder">Coorg</h3>
+            <h4 class="bg-success d-inline text-light p-1">₹5700</h4>
+            <h5 class="text-warning pt-2">Per adult</h5>
+            <h5 class="text-warning">Transpotation included</h5>
+            <h5 class="text-warning">Day trip</h5>
+            <h5 class="text-warning">Departing from Chennai</h5>
+            <h5 class="text-warning"><i class="far fa-clock"></i> 4 to 5 Hours</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/img/rajasthan.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder">Rajasthan</h3>
+          </div>
+          <div class="flip-card-back">
+            <img src="assets/img/rajasthan.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder">Rajasthan</h3>
+            <h4 class="bg-success d-inline text-light p-1">₹9900</h4>
+            <h5 class="text-warning pt-2">Per adult</h5>
+            <h5 class="text-warning">Transpotation included</h5>
+            <h5 class="text-warning">Day trip</h5>
+            <h5 class="text-warning">Departing from Chennai</h5>
+            <h5 class="text-warning"><i class="far fa-clock"></i> 5 to 6 hours</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="assets/img/rajasthan2.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder"> Thar Desert</h3>
+          </div>
+          <div class="flip-card-back">
+            <img src="assets/img/rajasthan2.jpg" class="img-fluid" alt="nature">
+            <h3 class="text-light fw-bolder"> Thar Desert</h3>
+            <h4 class="bg-success d-inline text-light p-1">₹5900</h4>
+            <h5 class="text-warning pt-2">Per adult</h5>
+            <h5 class="text-warning">Transpotation included</h5>
+            <h5 class="text-warning">Day trip</h5>
+            <h5 class="text-warning">Departing from Chennai</h5>
+            <h5 class="text-warning"><i class="far fa-clock"></i> 5 to 6 hours</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row pb-5">
+    <div class="col-12 text-center">
+      <button class="btn btn-success btn-lg mt-4"><a class="text-light fw-bold" href="">LOAD MORE</a></button>
+    </div>
+  </div>
+  </div>
+  <!-- footer start -->
+  <div class="container-fluid py-5" id=footer1>
+    <div class="container">
+      <div class="footer__content">
+        <div class="col footer__item">
+          <img src="assets/img/logo.png" class="img-fluid" width="200px" height="100px" alt="logo">
+          <p>The Trip Designer is your favourite specialist for authentic, unique and memorable round trips, day trips
+            and activities in India</p>
+          <img src="assets/img/indiatour.png" class="img-fluid" width="200px" height="100px" alt="logo">
+          <p>Travel envirounmentally friendly with us and discover the main destinations of the India</p>
+        </div>
+        <div class="footer__item">
+          <h4>ABOUT US</h4>
+          <ul>
+            <h5><a href="">ABOUT ECOTOUR</a></h5>
+            <h5><a href="">LOCATION</a></li>
+              <h5><a href="">OUR TEAM</a></h5>
+              <h5><a href="">GUESTBOOK</a></h5>
+              <h5><a href="">IMPRINT</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4 class="">CUSTOMER SERVICE</h4>
+          <ul>
+            <h5><a href="">BOOKING CONDITIONS</a></h5>
+            <h5><a href="">CONTACT-US</a></h5>
+            <h5><a href="">FAQ'S</a></h5>
+            <h5><a href="">LEGEL NOTICE</a></h5>
+            <h5><a href="">PRIVACY POLICY</a></h5>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <h4 class="">RESERVATION & BOOKINGS</h4>
+          <ul>
+            <h5>MONDAY TO FRIDAY</h5>
+            <h5>From 8:00 pm to 8:00 pm</h5>
+              <h5>SATURDAY TO SUNDAY</h5>
+              <h5>From 9:00 pm to 5:00 pm</h5> <br>
+              <h5>atlantic Standerd Time </h5>
+              <h5> +(878) 567 3325</h5>
+          </ul>
+        </div>
+        <div class="footer__item footer__icons">
+          <h4 class="">FOLLOW US</h4>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
